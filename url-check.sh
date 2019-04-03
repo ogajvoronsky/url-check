@@ -33,7 +33,7 @@ while test -n "$1"; do
     shift
     ;;
   --destination|-d)
-    if [[ -n $2 && -w $2 ]]; then 
+    if [[ -n $2 ]]; then 
         DESTINATION=$2
     fi 
     shift
